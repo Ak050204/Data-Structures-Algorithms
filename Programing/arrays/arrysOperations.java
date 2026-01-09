@@ -4,6 +4,7 @@ public class arrysOperations {
   //their are 4 operations in arrays input, output, update, delete
   public static void main(String[] args) {
     int marks[] = new int[50];
+     System.out.println("length of marks array: " + marks.length);
     Scanner sc = new Scanner(System.in);
     // int physics = sc.nextInt();
     // marks[0] = physics; 
@@ -17,5 +18,9 @@ public class arrysOperations {
 
     marks[2] = 95; // Update marks
     System.out.println("Updated math marks: " + marks[2]);
+
+    int percentage = (marks[0] + marks[1] + marks[2]) / 3;
+    System.out.println("Percentage: " + percentage);
+
   }
 }
