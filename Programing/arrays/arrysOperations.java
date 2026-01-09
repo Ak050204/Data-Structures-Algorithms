@@ -14,5 +14,8 @@ public class arrysOperations {
     System.out.println("phy marks: " + marks[0]);
     System.out.println("chem marks: " + marks[1]);
     System.out.println("math marks: " + marks[2]);
+
+    marks[2] = 95; // Update marks
+    System.out.println("Updated math marks: " + marks[2]);
   }
 }
