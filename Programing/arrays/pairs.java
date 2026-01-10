@@ -6,7 +6,7 @@ public class pairs {
     int tp = 0; // total pairs
     for(int i = 0; i < arr.length; i++){
       int curr = arr[i];
-      for(int j = i+1; j < arr.length; j++){
+      for(int j = i+1; j < arr.length; j++){ //nested loop
         System.out.print("(" + curr + "," + arr[j] + ") ");
         tp++;
       }
