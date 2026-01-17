@@ -3,7 +3,9 @@ package Programing.arrays;
 public class subArrays {
   public static void printSubArrays(int arr[]){
     for(int i=0; i < arr.length; i++){
+      int start = i;
       for(int j = i; j < arr.length; j++){
+        int end = j;
         for(int k = i; k <= j; k++){
           System.out.print(arr[k] + " ");
         }
