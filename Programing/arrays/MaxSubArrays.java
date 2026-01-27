@@ -8,7 +8,7 @@ public class MaxSubArrays {
       for(int j = i; j < arr.length; j++){
         int end = j;
         int currentSum = 0;
-        for(int k = i; k <= j; k++){
+        for(int k = start; k <= end; k++){
           currentSum += arr[k];
         }
         if(currentSum > maxSum){
