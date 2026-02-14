@@ -1,0 +1,14 @@
+package Programing.bitManuplation;
+
+public class powerCheck {
+  public static boolean isPowerOfTwo(int n){
+    if(n == 0){
+      return false;
+    }
+    return (n & (n-1)) == 0;
+  }
+  public static void main(String[] args) {
+    System.out.println(isPowerOfTwo(15));
+    System.out.println(isPowerOfTwo(16));
+  }
+}
