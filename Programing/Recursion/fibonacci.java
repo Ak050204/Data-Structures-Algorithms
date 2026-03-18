@@ -13,7 +13,7 @@ public class fibonacci {
     return fn;
   }
   public static void main(String[] args) {
-    int n = 25;
+    int n = 10;
 System.out.println(fib(n)); 
   }
 }
