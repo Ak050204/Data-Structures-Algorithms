@@ -19,7 +19,7 @@ public class removeDuplicates {
     }
   }
   public static void main(String[] args){
-    String str = "aniketbalasahebkandekar";
+    String str = "aniketbalasahebkandekar     ";
     // boolean[] map = new boolean[26];
     removeDup(str, 0, new StringBuilder(""), new boolean[26]);
   }
